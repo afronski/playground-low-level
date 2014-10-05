@@ -1,0 +1,17 @@
+env = Environment()
+env.Append(CPPPATH = [ '../' ])
+
+flags = [
+	'-g', '-Wall', '-Wextra',
+
+	'-Wno-unused-function',
+	'-Wno-implicit-function-declaration',
+	'-Wno-int-to-pointer-cast'
+]
+
+libs = [
+	'zmq'
+]
+
+env.Program("hwserver", "hwserver.c", CFLAGS = flags, LIBS = libs)
+env.Program("hwclient", "hwclient.c", CFLAGS = flags, LIBS = libs)

@@ -1,0 +1,8 @@
+# Executable version is ignored.
+reactor
+
+# Binaries.
+*.o
+
+# Generated assets.
+log.txt

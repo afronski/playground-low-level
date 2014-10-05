@@ -1,0 +1,5 @@
+hsv-mask
+opticalflow
+*.o
+*.out
+*.dblite

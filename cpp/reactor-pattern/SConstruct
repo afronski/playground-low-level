@@ -1,0 +1,18 @@
+env = Environment()
+env.Append(CPPPATH = [ '../' ])
+
+flags = [
+  '-g', '-Wall', '-Wextra', '-std=c++11'
+]
+
+libs = []
+
+reactor = env.Object("EpollReactor.o", "EpollReactor.cpp", CXXFLAGS = flags)
+
+acceptor = env.Object("AcceptorEventHandler.o", "AcceptorEventHandler.cpp", CXXFLAGS = flags)
+echo = env.Object("EchoResponderEventHandler.o", "EchoResponderEventHandler.cpp", CXXFLAGS = flags)
+keyboard = env.Object("KeyboardEventHandler.o", "KeyboardEventHandler.cpp", CXXFLAGS = flags)
+
+main = env.Object("main.o", "main.cpp", CXXFLAGS = flags)
+
+env.Program("reactor", [ reactor, acceptor, echo, keyboard, main ], LIBS = libs)

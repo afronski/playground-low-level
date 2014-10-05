@@ -1,0 +1,2 @@
+main = Glob("./main.cpp")
+Program("hsv-mask", main, LIBS=["opencv_core", "opencv_highgui", "opencv_imgproc"])

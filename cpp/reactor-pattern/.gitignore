@@ -6,3 +6,4 @@ reactor
 
 # Generated assets.
 log.txt
+*.dblite

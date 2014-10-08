@@ -2,5 +2,10 @@
 
 ## TODO
 
-- Proper *.gitignore* file.
-- Clean up in TODOs.
+- Browser implementation.
+- Beej's Guides:
+  - IPC
+  - Sockets
+- Samples:
+  - ZeroMQ
+  - libuv

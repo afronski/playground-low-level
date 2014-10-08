@@ -1,2 +1,0 @@
-main = Glob("./main.cpp")
-Program("opticalflow", main, LIBS=["opencv_core", "opencv_highgui", "opencv_video", "opencv_imgproc"])

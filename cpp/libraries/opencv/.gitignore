@@ -1,0 +1,7 @@
+optical-flow/*.o
+optical-flow/*.out
+optical-flow/*.dblite
+
+simple/*.o
+simple/*.out
+simple/*.dblite

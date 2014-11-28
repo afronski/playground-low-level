@@ -1,4 +1,4 @@
--module(tested).
+-module(main).
 -export([ main/0 ]).
 
 read_lines(0, Lines) -> Lines;

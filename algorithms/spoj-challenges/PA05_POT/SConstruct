@@ -1,0 +1,4 @@
+import os
+
+env = Environment(ENV = os.environ)
+env.Program("main", "main.cpp", CXXFLAGS = [ '-O2', '-static', '-lm' ])

@@ -1,2 +1,5 @@
 # Binaries:
 *.beam
+*.dblite
+*.o
+main

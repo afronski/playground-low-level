@@ -1,0 +1,6 @@
+env = Environment()
+
+flags = [ "-g", "-Wall", "-Wextra" ]
+
+duktape = env.Object("duktape.c", CFLAGS = flags)
+env.Program("main", "main.c", CFLAGS = flags, LIBS = [ "m", duktape ])

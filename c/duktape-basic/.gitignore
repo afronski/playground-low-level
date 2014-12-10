@@ -1,3 +1,4 @@
 main
 *.dblite
 *.o
+duktape.c

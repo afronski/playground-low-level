@@ -10,5 +10,4 @@
   - ZeroMQ
   - libuv
 - Crystal:
-  - Getting started.
   - Integration with `LLVM`.

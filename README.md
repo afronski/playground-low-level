@@ -8,6 +8,5 @@
   - Sockets
 - Samples:
   - ZeroMQ
-  - libuv
 - Crystal:
   - Integration with `LLVM`.

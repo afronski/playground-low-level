@@ -1,0 +1,4 @@
+# Dependencies and Crystall stuff:
+.deps/
+.crystal/
+libs/

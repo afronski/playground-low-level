@@ -10,3 +10,7 @@
 
 - [Baking Pi - Tutorial](http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/index.html)
 - [Raspberry Pi - Bare Bones](http://wiki.osdev.org/Raspberry_Pi_Bare_Bones)
+
+## Other
+
+- [LFS](http://www.linuxfromscratch.org/)

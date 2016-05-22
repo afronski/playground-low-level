@@ -16,3 +16,4 @@
 ### Linux
 
 - [LFS](http://www.linuxfromscratch.org/)
+- [PiLFS](http://www.intestinate.com/pilfs/)

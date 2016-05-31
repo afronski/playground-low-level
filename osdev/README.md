@@ -5,6 +5,8 @@
 - [Gynvael Coldwind - OSDev #1](https://www.youtube.com/watch?v=IRPMEK2zYd8)
 - [Gynvael Coldwind - OSDev #2](https://www.youtube.com/watch?v=xSGVREko6Bc)
 - [Gynvael Coldwind - OSDev #3](https://www.youtube.com/watch?v=p46jCETFHmE)
+  - `1g_pages` issue explanation:
+    - http://gynvael.coldwind.pl/?lang=pl&id=607
 
 ## ARM
 
